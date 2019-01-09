@@ -5,7 +5,7 @@ Shopify ATC Link Generator for Discord
 
 Requires <a href="https://nodejs.org/">Node.js</a>. 8.10.x or latest LTS version recommended.
 
-### Discord & Twitter Access
+### Discord Bot Access
 
 Requires a Discord Bot with Read/Write/Manage permissions.
 
