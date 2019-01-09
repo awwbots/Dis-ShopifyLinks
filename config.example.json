@@ -1,0 +1,8 @@
+{
+	"allowedRoles": [
+		"owner"
+    ],
+    "command": "shopify",
+    "discordToken": "YOUR DISCORD TOKEN HERE",
+    "prefix": "!"
+}
