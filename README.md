@@ -17,4 +17,4 @@ Requires a Discord Bot with Read/Write/Manage permissions.
 2. Launch command/terminal, navigate to the ".../Dis-ShopifyLinks/" folder that you created in the previous step.
 3. Run "npm install". 
 4. Rename "config.example.json" to "config.json"
-5. Open config.json, complete any of the missing fields, and modify the user monitor list as needed.
+5. Open config.json, complete any of the missing fields, and modify the allowedRoles to include the Discord Server roles that you want to have access the command. You can also modify the command and/or prefix within the config.json as you wish.
