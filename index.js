@@ -66,11 +66,11 @@ client.on('message', async (message) => {
     let args = message.content.slice(config.prefix.length).trim().split(/ +/g)
     let command = args.shift().toLowerCase()
 
-    if (message.content.indexOf(config.prefix) !== 0) return //If message does not have command prefix.
+    if (message.content.indexOf(config.prefix) != 0) return //If message does not have command prefix.
     if (message.author.bot) return //Ignore commands sent by bot users.
-    else if (message.member.roles.some(role => config.allowedRoles.includes(role.name.toLowerCase())) == false) return //Don't allow commands from unauthorized users.
+    else if (message.member.roles.some(role => config.allowedRoles.includes(role.name)) == false) return //Don't allow commands from unauthorized users.
 
-    if (command === config.command) getVariants(args, message.channel)
+    if (command == config.command) getVariants(args, message.channel)
     else return //If the command is not used by this bot.
 
     consoleLog('Allowed command "' + command + '" from ' + message.member.user.username, "INFO")
