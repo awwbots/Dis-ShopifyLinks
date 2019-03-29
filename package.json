@@ -1,6 +1,6 @@
 {
   "name": "dis-shopifylinks",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "Shopify Variant Link Generator for Discord",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,10 @@
   "author": "andar",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.4.2",
     "discord.js": "^11.4.2",
-    "randomcolor": "^0.5.3",
-    "request": "^2.88.0"
+    "randomcolor": "^0.5.4",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
   }
 }
